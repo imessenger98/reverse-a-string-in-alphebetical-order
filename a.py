@@ -10,7 +10,7 @@ for i in range(0, 26):
     beta = chr(ord(beta) - 1)
    
 
-a=input().lower()
+a=input("enter a string to reverse:").lower()
 for i in a:
     if i in test_list:
         k=(test_list.index(i))
